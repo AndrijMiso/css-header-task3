@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+:root {
+    --main-color: black;
+    --secondary-color: white;
+}
+p h1 h2 {
+  margin: 0;
+  padding: 0;
+}
+body {
+    max-width: 980;
+    margin: auto;
+}
+header h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: left;
+    color: rgb(196, 129, 4);
+    width: 
+}
+header .navigation1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+}
+header .navigation1 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    border: 1px solid transparent;
+    padding: 5px;
+}
+header .navigation1 a:hover {
+    border: 1px solid var(--secondary-color);
+}
+@media (min-width: 550px) {
+    header nav {
+        display: flex;
+    }
+
+    header nav .navigation1 {
+        flex: 1;
+    }
+}
+header nav {
+  background-color: #350c0c;
+  padding: 3px;
+}
+
+
+header .banner {
+    background-image: url(../img/alpinist.png);
+    background-position: right;
+    background-size: cover;
+    min-height: 1000px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+.main-header {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+
+header .main-header .in-lviv {
+    color: rgb(175, 4, 4);
+    font-weight: bold;
+    font-size: 40px;
+    margin: auto;
+}
+
+
